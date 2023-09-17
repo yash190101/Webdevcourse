@@ -1,0 +1,125 @@
+body{
+    background-color: lightblue;
+}
+/* Modify the background color */
+.navbar-custom{
+	background-color: lightblue;
+}
+img.img1{
+    border: 1px solid black;
+    
+}
+.nav-link{
+    color: brown;
+    font-family: 'Caveat', cursive;
+    font-family: 'Mooli', sans-serif;
+}
+img.img-hero{
+    border-radius: 50%;
+    border: 2px solid beige;
+}
+h1.h1-hero{
+    font-family: 'Caveat', cursive;
+    font-family: 'Mooli', sans-serif;
+}
+h2.h2-hero{
+    color: brown;
+    font-family: 'Caveat', cursive;
+    font-family: 'Mooli', sans-serif;
+}
+div.about-div{
+    position: relative;
+    left: 20%;
+    top: 150px;
+}
+p.aboutp{
+    margin-top: 20px;
+    font-family: cursive;
+    border: 1px ;
+    font-weight: 800;
+    font-family: 'Mooli';
+    color: darkslateblue;
+}
+h1.about-h1{
+    color: white;
+}
+h1.about-h1-2{
+    color: white;    
+}
+div.grid{
+    background-color: white;
+    position: relative;
+    gap: 10px;
+    top: 200px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+ul.ul-ex{
+    
+    font-family: cursive;
+    border: 1px ;
+    font-weight: 800;
+    font-family: 'Mooli';
+    color: darkslateblue;
+}
+p.ul-ex{
+    
+    font-family: cursive;
+    border: 1px ;
+    font-weight: 800;
+    font-family: 'Mooli';
+    color: darkslateblue;
+}
+h3.h3-exp{
+    color: white;
+}
+
+@media(max-width : 900px) {
+    div.grid{
+
+        position: relative;
+        gap: 10px;
+        top: 200px;
+        display : grid;
+        grid-template-columns: 4fr;
+        grid-template-rows : 2fr 4fr;
+        
+    }
+    
+}
+
+div.grid-work{
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    position: relative;
+    top: 150px;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+div.blue{
+    background-color: lightblue;
+    padding: 20px;
+}
+div.main{
+    position: relative;
+    top: 150px;
+    
+
+}
+
+h1.contact-h1{
+    margin: 40px;
+    color: white;
+
+}
+
+a.contact{
+    color: darkslateblue;
+    padding: 20px;
+    border: 10px solid white ;
+    margin: 20px;
+}
